@@ -1,14 +1,14 @@
 .jumbotron {
-    background-image: url("../images/spiration-light.png");
+    background-image: url("../images/spiration-light.PNG");
     margin-top: 200px;
     opacity: 1.2;
 
 }
 body {
-    background-image: url("../images/aspen1.jpg")
+    background-image: url("../images/aspen1.JPG")
 }
 .navbar {
-    background-image: url("../images/spiration-light.png");
+    background-image: url("../images/spiration-light.PNG");
 }
 .navbar-nav {
      margin-left: auto;

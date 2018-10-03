@@ -1,0 +1,52 @@
+.jumbotron {
+    background-image: url("../images/spiration-light.png");
+    margin-top: 200px;
+    opacity: 1.2;
+
+}
+body {
+    background-image: url("../images/aspen1.jpg")
+}
+.navbar {
+    background-image: url("../images/spiration-light.png");
+}
+.navbar-nav {
+     margin-left: auto;
+}
+.nav-item {
+    text-align: center;
+    
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    font-size: 20px;
+}
+.nav-item {
+    padding: 5px 15px;;
+}
+
+.display-4 {
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    font-size: 90px;
+}
+.rounded-circle {
+    width: 30%;
+    float: right;
+    margin-top: -120px;
+    /* filter: grayscale(100%); */
+}
+.contacth1 {
+    color: white;
+}
+label {
+    color: white;
+    font-weight: 700;
+}
+.formBox {
+    background-color:rgba(0, 0, 0, .2);  
+    margin: 20px auto;
+    padding: 20px;
+}
+.btn-primary {
+    background-color: #597BA1;
+}

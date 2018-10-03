@@ -1,2 +1,4 @@
 # nicolejeanne.github.io
-Custom Portfolio
+
+## You've reached my personal porfolio page! 
+## Thanks for stopping by, hope you enjoy checking it out!

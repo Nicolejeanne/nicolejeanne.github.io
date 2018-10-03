@@ -15,9 +15,8 @@ body {
 }
 .nav-item {
     text-align: center;
-    
-    font-family: 'Poiret One', cursive;
-    font-weight: 900;
+    font-family: Helvetica Neue,Arial,sans-serif;
+    font-weight: 700;
     font-size: 20px;
 }
 .nav-item {
@@ -28,6 +27,11 @@ body {
     font-family: 'Poiret One', cursive;
     font-weight: 900;
     font-size: 90px;
+}
+.lead-welcome {
+    /* text-align: center; */
+    font-size: 22px;
+    font-weight: 700;
 }
 .rounded-circle {
     width: 30%;

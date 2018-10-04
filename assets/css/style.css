@@ -34,7 +34,7 @@ body {
     font-size: 22px;
     font-weight: 700;
 }
-.rounded-circle {
+.headshotCircle {
     width: 30%;
     float: right;
     margin-top: -120px;
@@ -54,4 +54,17 @@ label {
 }
 .btn-primary {
     background-color: #597BA1;
+}
+.card-deck {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.card-img-top {
+    padding: 20px;
+    height: 200px;
+}
+.card-text {
+    text
 }

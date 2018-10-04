@@ -5,7 +5,8 @@
 
 }
 body {
-    background-image: url("../images/aspen1.JPG")
+    background-image: url("../images/aspen2.JPG");
+    background-size: 100%;
 }
 .navbar {
     background-image: url("../images/spiration-light.png");

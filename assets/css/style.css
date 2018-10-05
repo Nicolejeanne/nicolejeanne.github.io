@@ -5,8 +5,8 @@
 
 }
 body {
-    background-image: url("../images/aspen2.JPG");
-    background-size: 100%;
+    background-image: url("../images/aspen1.JPG");
+    /* background-size: 100%; */
 }
 .navbar {
     background-image: url("../images/spiration-light.png");
@@ -66,6 +66,40 @@ label {
     padding: 20px;
     height: 200px;
 }
-.card-text {
-    text
+.card-body a:hover {
+    text-decoration: none;
+}
+.card-title {
+    text-align: center;
+    color: black;
+}
+.card-port-text {
+    color: black;
+    text-align: center;
+}
+portfolioLink {
+    color: black;
+}
+.port-card:hover {
+    background-color:rgba(0, 0, 0, .5);
+}
+.aboutMeCard {
+    width: 75%;
+    margin: 0 auto;
+}
+.aboutMeHeader {
+    font-family: Helvetica Neue,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.fa {
+    margin: 0 10px;
+    color: #B2B2B2;
+}
+.alertResume {
+    font-family: Helvetica Neue,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    width: 75%;
+    margin: 20px auto;
 }

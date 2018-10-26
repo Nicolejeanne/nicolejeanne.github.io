@@ -84,7 +84,10 @@ portfolioLink {
     background-color:rgba(0, 0, 0, .5);
     color:  #6c757d;
 }
-.card-title-row1:hover .card-port-text-row1:hover {
+.card-port-title-row1 {
+    color: black;
+}
+.card-port-text-row1 {
     color: black;
 }
 .aboutMeCard {

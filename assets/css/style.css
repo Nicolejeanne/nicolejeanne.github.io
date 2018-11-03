@@ -1,114 +1,116 @@
 .jumbotron {
-    background-image: url("../images/spiration-light.png");
-    margin-top: 200px;
-    opacity: 1.2;
-
+  background-image: url("../images/spiration-light.png");
+  margin-top: 200px;
+  opacity: 1.2;
 }
 body {
-    background-image: url("../images/aspen1.JPG");
-    /* background-size: 100%; */
+  background-image: url("../images/aspen1.JPG");
+  /* background-size: 100%; */
 }
 .navbar {
-    background-image: url("../images/spiration-light.png");
-    margin-bottom: 20px;
+  background-image: url("../images/spiration-light.png");
+  margin-bottom: 20px;
 }
 .navbar-nav {
-     margin-left: auto;
+  margin-left: auto;
 }
 .nav-item {
-    text-align: center;
-    font-family: Helvetica Neue,Arial,sans-serif;
-    font-weight: 700;
-    font-size: 20px;
+  text-align: center;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
 }
 .nav-item {
-    padding: 5px 15px;;
+  padding: 5px 15px;
 }
 
 .display-4 {
-    font-family: 'Poiret One', cursive;
-    font-weight: 900;
-    font-size: 90px;
+  font-family: "Poiret One", cursive;
+  font-weight: 900;
+  font-size: 90px;
 }
 .lead-welcome {
-    /* text-align: center; */
-    font-size: 22px;
-    font-weight: 700;
+  /* text-align: center; */
+  font-size: 22px;
+  font-weight: 700;
 }
 .headshotCircle {
-    width: 30%;
-    float: right;
-    margin-top: -120px;
-    /* filter: grayscale(100%); */
+  width: 30%;
+  float: right;
+  margin-top: -120px;
+  /* filter: grayscale(100%); */
 }
 .contacth1 {
-    color: white;
+  color: white;
 }
 label {
-    color: white;
-    font-weight: 700;
+  color: white;
+  font-weight: 700;
 }
 .formBox {
-    background-color:rgba(0, 0, 0, .2);  
-    margin: auto;
-    padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: auto;
+  padding: 20px;
 }
 .btn-primary {
-    background-color: #597BA1;
+  background-color: #597ba1;
 }
 .card-deck {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 .card-img-top {
-    padding: 20px;
-    height: 200px;
+  padding: 20px;
+  height: 200px;
 }
 .card-body a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 .card-title {
-    text-align: center;
-    color: #6c757d;
+  text-align: center;
+  color: #6c757d;
 }
 .card-port-text {
-    color: #6c757d;
-    text-align: center;
+  color: #6c757d;
+  text-align: center;
 }
 portfolioLink {
-    color: black;
+  color: black;
 }
 .port-card:hover {
-    background-color:rgba(0, 0, 0, .5);
-    color:  #6c757d;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #6c757d;
 }
 .card-port-title-row1 {
-    color: black;
+  color: black;
 }
 .card-port-text-row1 {
-    color: black;
+  color: black;
 }
 .aboutMeCard {
-    width: 75%;
-    margin: 0 auto;
+  width: 75%;
+  margin: 0 auto;
 }
 .aboutMeHeader {
-    font-family: Helvetica Neue,Arial,sans-serif;
-    font-weight: 700;
-    font-size: 30px;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
 }
 .fa {
-    margin: 0 10px;
-    color: #B2B2B2;
+  margin: 0 10px;
+  color: #b2b2b2;
 }
 .alertResume {
-    font-family: Helvetica Neue,Arial,sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    width: 75%;
-    margin: 20px auto;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  width: 75%;
+  margin: 20px auto;
+}
+.hidden {
+  visibility: hidden;
 }
 /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) {...}  */

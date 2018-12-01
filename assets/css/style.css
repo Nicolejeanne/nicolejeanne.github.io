@@ -76,7 +76,7 @@ label {
   color: #6c757d;
   text-align: center;
 }
-portfolioLink {
+.portfolioLink {
   color: black;
 }
 .port-card:hover {
@@ -113,16 +113,49 @@ portfolioLink {
   visibility: hidden;
 }
 /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {...}  */
+@media only screen and (max-width: 600px) {
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {...}  */
+@media only screen and (min-width: 600px) {
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...}  */
+@media only screen and (min-width: 768px) {
+  .headshotCircle {
+    margin-top: -50px;
+    margin-left: 40px;
+  }
+  .display-4 {
+    font-size: 60px;
+  }
+  .lead-welcome {
+    font-size: 18px;
+  }
+  .jumbotron {
+    padding: 2rem;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {...}  */
+@media only screen and (min-width: 992px) {
+  .headshotCircle {
+    margin-top: -80px;
+  }
+  .display-4 {
+    font-size: 60px;
+  }
+  .lead-welcome {
+    font-size: 18px;
+  }
+  .jumbotron {
+    padding: 2rem;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
+@media only screen and (min-width: 1200px) {
+  .headshotCircle {
+    margin-top: -110px;
+  }
+}

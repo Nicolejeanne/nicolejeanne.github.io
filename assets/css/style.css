@@ -56,7 +56,7 @@ label {
   background-color: #597ba1;
 }
 .card-deck {
-  width: 75%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -83,12 +83,17 @@ label {
   background-color: rgba(0, 0, 0, 0.5);
   color: #6c757d;
 }
-.card-port-title-row1 {
+.card-footer-port {
+  text-align: center;
+  padding: 0.25rem 1rem;
+}
+/* .card-port-title:hover {
   color: black;
 }
-.card-port-text-row1 {
+.card-port-text:hover {
   color: black;
-}
+} */
+
 .aboutMeCard {
   width: 75%;
   margin: 0 auto;
@@ -112,12 +117,59 @@ label {
 .hidden {
   visibility: hidden;
 }
+/* begin diagonal badge */
+
+.diagonal {
+  background-color: rgb(212, 67, 67);
+  white-space: nowrap;
+  position: absolute;
+  padding: 20px 300px;
+  min-width: 300px;
+  transform: rotate(-45deg) translate(-37%, 0);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  top: -20px;
+  box-sizing: content-box;
+  z-index: 1;
+}
+.contact-submit {
+  background-color: grey;
+  border-color: grey;
+}
+.contact-submit:hover {
+  background-color: #c6ac8b;
+  border-color: #c6ac8b;
+}
+/* end diagonal badge */
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .navbar {
+    width: auto;
+    height: 75px;
+  }
+  .headshotCircle {
+    width: 45%;
+  }
+  .lead-welcome {
+    font-size: 16px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .headshotCircle {
+    width: 40%;
+  }
+  .lead-welcome {
+    font-size: 18px;
+  }
+  .diagonal {
+    padding: 20px 30px;
+    font-size: 16px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -130,10 +182,13 @@ label {
     font-size: 60px;
   }
   .lead-welcome {
-    font-size: 18px;
+    font-size: 16px;
   }
   .jumbotron {
     padding: 2rem;
+  }
+  .diagonal {
+    padding: 20px 110px;
   }
 }
 
